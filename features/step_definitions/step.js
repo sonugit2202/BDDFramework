@@ -62,13 +62,11 @@ Then('Verify order is present inside order history page', async function () {
 
 
 
- Given('user to be on the loginpage and enter {string} and {string}',async function (username, password) {
-      
+ Given('user to be on the loginpage and enter {string} and {string}',async function (username, password) {     
          await this.page.goto("https://rahulshettyacademy.com/loginpagePractise/");
          await this.page.locator("#username").fill(username);
          await this.page.locator("#password").fill(password);
         await this.page.locator("#signInBtn").click();
-
          });
 
 

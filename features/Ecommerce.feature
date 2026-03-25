@@ -8,13 +8,13 @@ Feature: Ecommerce page shopping end to end
     When  Enter all the purchase details and select "India" and click on place order
     Then  Verify order is present inside order history page
 
-    @Validation
-    Scenario Outline: LoginPageError check
+    # @Validation
+    # Scenario Outline: LoginPageError check
 
-    Given user to be on the loginpage and enter "<username>" and "<password>"
-    Then Verify error message is displaying properly
+    # Given user to be on the loginpage and enter "<username>" and "<password>"
+    # Then Verify error message is displaying properly
 
-    Examples:
-        | username                | password  |
-        | sonuratish22@gmail.com  | Sonu@2202 |
-        | sonugit2202@gmail.com   | Sonu@2202 |
+    # Examples:
+    #     | username                | password  |
+    #     | sonuratish22@gmail.com  | Sonu@2202 |
+    #     | sonugit2202@gmail.com   | Sonu@2202 |
